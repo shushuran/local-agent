@@ -1,0 +1,9 @@
+{
+    "python-envs.defaultEnvManager": "ms-python.python:conda",
+    "python-envs.defaultPackageManager": "ms-python.python:conda",
+    "python.defaultInterpreterPath": "D:\\anaconda\\envs\\pytorch\\python.exe",
+    "code-runner.executorMap": {
+        "python": "D:\\anaconda\\envs\\pytorch\\python.exe -X utf8 -u"
+    },
+    "code-runner.fileDirectoryAsCwd": true
+}

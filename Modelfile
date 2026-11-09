@@ -1,0 +1,6 @@
+FROM qwen2.5:7b
+
+# 默认上下文只有 2k，多轮工具调用会直接爆掉
+PARAMETER num_ctx 8192
+PARAMETER temperature 0.2
+PARAMETER num_predict 1024
